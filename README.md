@@ -22,15 +22,43 @@ This is a Flask-based web application that predicts house prices in Amsterdam us
 Install dependencies with:
 
 bash or Terminal
+```python
 pip install flask pandas scikit-learn joblib
+```
 
 
 ## 🚀 Getting Started
-### Clone the repository
-
+### 1. Clone the repository
+1. In bash or terminal
+```python
 git clone <https://github.com/pratikraogithub/House_Price_Predictor>
+```
+
 Then in terminal or bash type - cd house_price_app
 
 ```python
-print("Code block")
+cd house_price_app
 ```
+
+2. Place Amsterdam.csv in the root folder(In this case leave it as it is).
+
+### 2. Train the model:
+```python
+python model.py
+```
+
+This will generate:
+- rf_model.pkl: Trained model
+- features.pkl: List of feature columns
+
+### 3. Run the Flask app:
+```python
+python app.py
+```
+
+### 4. Visit the web app in your browser:
+```python
+http://127.0.0.1:5000/
+```
+
+Then insert input -  Area, Room, Lon, Lat
