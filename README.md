@@ -34,7 +34,7 @@ pip install flask pandas scikit-learn joblib
 git clone <https://github.com/pratikraogithub/House_Price_Predictor>
 ```
 
-Then in terminal or bash type - cd house_price_app
+Then in terminal or bash type
 
 ```python
 cd House_Price_Predictor
