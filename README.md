@@ -37,7 +37,7 @@ git clone <https://github.com/pratikraogithub/House_Price_Predictor>
 Then in terminal or bash type - cd house_price_app
 
 ```python
-cd Another-house-price-predictor
+cd House_Price_Predictor
 ```
 if you are already in "Another-house-price-predictor" then leave as it is
 
