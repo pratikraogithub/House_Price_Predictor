@@ -69,7 +69,7 @@ Inset the values (note: take help of Amsterdam.csv)
 ![image1](./images/image.png)
 
 Then hit the "Predict" button
-![image2](./images/image2.png)
+![image2](./images/image3.png)
 The result is shown there and the input field gets empty after the prediction.
 
 
