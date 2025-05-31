@@ -61,4 +61,13 @@ python app.py
 http://127.0.0.1:5000/
 ```
 
-Then insert input -  Area, Room, Lon, Lat
+Then insert input -  Area, Room, Lon, Lat(Take help of Amsterdam.csv file)
+
+## Screenshots
+
+Inset the values (note: take help of Amsterdam.csv)
+![image1](./images/image.png)
+
+Then hit the "Predict" button
+![image2](./images/image2.png)
+The result is shown there and the input field gets empty after the prediction.
