@@ -76,5 +76,6 @@ The result is shown there and the input field gets empty after the prediction.
 ## 📌 Notes
 - Make sure all input values in the form are numeric.
 - The dataset used: Amsterdam.csv.
+- While giving input take help Amsterdam.csv for langitude and lattitude also you can take help for area and room 
 - Model used: Random Forest Regressor from scikit-learn.
 
