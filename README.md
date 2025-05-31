@@ -71,3 +71,10 @@ Inset the values (note: take help of Amsterdam.csv)
 Then hit the "Predict" button
 ![image2](./images/image2.png)
 The result is shown there and the input field gets empty after the prediction.
+
+
+## 📌 Notes
+- Make sure all input values in the form are numeric.
+- The dataset used: Amsterdam.csv.
+- Model used: Random Forest Regressor from scikit-learn.
+
