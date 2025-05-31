@@ -37,8 +37,9 @@ git clone <https://github.com/pratikraogithub/House_Price_Predictor>
 Then in terminal or bash type - cd house_price_app
 
 ```python
-cd house_price_app
+cd Another-house-price-predictor
 ```
+if you are already in "Another-house-price-predictor" then leave as it is
 
 2. Place Amsterdam.csv in the root folder(In this case leave it as it is).
 
