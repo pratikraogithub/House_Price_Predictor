@@ -1,0 +1,21 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Predictor</title>
+</head>
+<body>
+    <h2>Enter House Details</h2>
+    <form method="POST">
+        {% for feature in features %}
+            <label>{{ feature }}:</label>
+            <input type="text" name="{{ feature }}" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction is not none %}
+        <h3>Predicted Price: €{{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
